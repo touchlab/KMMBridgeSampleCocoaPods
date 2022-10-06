@@ -11,7 +11,7 @@ end
 
 # Make sure to add the touchlab pod repo with 'pod repo add touchlab <ssh/https podspec repo url>`
 if ENV.include?("CP_HOME_DIR")
-  source ENV["CP_HOME_DIR"] + '/repos/touchlab-publicpodspecs'
+  source ENV["CP_HOME_DIR"] + '/repos/touchlab'
 else
-  source ENV["HOME"] + '/.cocoapods/repos/touchlab-publicpodspecs'
+  source ENV["HOME"] + '/.cocoapods/repos/touchlab'
 end
