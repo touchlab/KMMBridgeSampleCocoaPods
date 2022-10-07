@@ -1,16 +1,16 @@
 PODS:
-  - shared (0.2.1)
+  - shared (0.5.0)
 
 DEPENDENCIES:
-  - shared (= 0.2.1)
+  - shared (~> 0.5.0)
 
 SPEC REPOS:
-  "/Users/mfriend/.cocoapods/repos/touchlab-publicpodspecs":
+  https://github.com/touchlab/PublicPodspecs.git:
     - shared
 
 SPEC CHECKSUMS:
-  shared: 5345dfbde51feb2f0b77d1c42ebbf3492caf1b69
+  shared: 1074bf38325fda3218bd205decc2a7eba25b2734
 
-PODFILE CHECKSUM: 16500405dff5c0618b6438aecd0133cff09eaebf
+PODFILE CHECKSUM: 618e219165aa846c46d07e2e9e23f3acb79582c2
 
 COCOAPODS: 1.11.3
