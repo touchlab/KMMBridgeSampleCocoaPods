@@ -103,6 +103,7 @@
 				7653001A28EE052E00AAFBEA /* Sources */,
 				7653001B28EE052E00AAFBEA /* Frameworks */,
 				7653001C28EE052E00AAFBEA /* Resources */,
+				12E0927530D809DABB5DA1F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +160,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		12E0927530D809DABB5DA1F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KMMBridgeSampleCocoaPods/Pods-KMMBridgeSampleCocoaPods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KMMBridgeSampleCocoaPods/Pods-KMMBridgeSampleCocoaPods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KMMBridgeSampleCocoaPods/Pods-KMMBridgeSampleCocoaPods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E051FDE04F8EE2FFAA0CA7D4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

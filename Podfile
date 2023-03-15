@@ -6,6 +6,6 @@ target 'KMMBridgeSampleCocoaPods' do
   if ENV.include?("LOCAL_KOTLIN_PATH")
     pod 'shared', :path => ENV["LOCAL_KOTLIN_PATH"]
   else
-    pod 'shared', '~> 0.5.0'
+    pod 'shared', '~> 0.8.0'
   end
 end
